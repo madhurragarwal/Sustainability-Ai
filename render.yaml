@@ -12,6 +12,6 @@ services:
         sync: false
       - key: GEMINI_API_KEY
         sync: false
-    repo: https://github.com/yourusername/your-repo-name
+    repo: https://github.com/madhurragarwal/Sustainability-Ai.git
     branch: main
     rootDir: backend
