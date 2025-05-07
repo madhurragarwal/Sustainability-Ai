@@ -15,3 +15,13 @@ services:
     repo: https://github.com/madhurragarwal/Sustainability-Ai.git
     branch: main
     rootDir: backend
+
+      - type: web
+    name: sustainability-chatbot-frontend
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: build
+    repo: https://github.com/madhurragarwal/Sustainability-Ai.git
+    branch: main
+    rootDir: frontend
+
